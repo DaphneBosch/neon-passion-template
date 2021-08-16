@@ -36,7 +36,6 @@ body {
     background-color: #190042;
 }
 
-
 /* Buttons */
 .custom-btn {
     color: #fff;
@@ -165,8 +164,8 @@ body {
 /* Blocks */
 
 .b-image-right {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;;
 }
 
 .b-image-right h2 {
@@ -199,8 +198,8 @@ body {
 
 
 .b-image-left {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .b-image-left h2 {
@@ -231,15 +230,35 @@ body {
     width: 600px;
     margin-left: 11.5rem;
 }
+
+.b-team {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.b-team h2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.b-team p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 20px !important;
+    color: white;
+}
+
 /* HR's */
-/*hr.rounded {*/
-/*    border: 3px solid #ffffff;*/
-/*    border-radius: 5px;*/
-/*    width: 300px;*/
-/*    justify-content: center;*/
-/*    display: inline-block;*/
-/*    margin-top: 30px;*/
-/*}*/
+hr.rounded {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 /* Responsiveness */
 @media screen and (min-width: 1000px) {
